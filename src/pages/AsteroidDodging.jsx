@@ -151,7 +151,7 @@ const AsteroidDodging = () => {
             color="black"
           />
           <Button onClick={startGame} colorScheme="teal">
-            Start Game
+            Start the Game
           </Button>
         </VStack>
       )}
@@ -196,7 +196,7 @@ const AsteroidDodging = () => {
           {gameOver && (
             <VStack spacing={3}>
               <Text fontSize="2xl" color="red.400">
-                💥 Game Over!
+                💥 Game Over!!
               </Text>
               <Text>Final Score: {score}</Text>
               <Button onClick={restartGame} colorScheme="red">
