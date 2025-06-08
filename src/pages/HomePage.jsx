@@ -78,7 +78,7 @@ const Home = () => {
       <VStack spacing={4} textAlign="center" mb={10}>
         <Heading fontSize={{ base: "3xl", md: "5xl" }}>Explore the Cosmos</Heading>
         <Text fontSize="lg" maxW="2xl">
-          Dive into the wonders of space — from exploding stars to distant planets.
+          Dive into wonders of space — from exploding stars to distant planets.
         </Text>
       </VStack>
 
